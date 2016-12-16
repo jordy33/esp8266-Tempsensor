@@ -1,0 +1,1 @@
+esptool.py --port com3: write_flash 0x00000 firmware\0x00000.bin 0x40000 firmware\0x40000.bin
