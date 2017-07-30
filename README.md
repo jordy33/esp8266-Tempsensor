@@ -7,10 +7,13 @@ CP2102.RX-->ESP8266.TX
 CP2102.GND-->ESP8622.GND
 
 
-enter RPL
-capture:
-import esp
-esp.osdebug(None)
-ctrl -a K
-ampy get boot.py
-Uncoment the same files and save
+* enter RPL
+*capture:
+*import esp
+*esp.osdebug(None)
+*ctrl -a K
+*ampy get boot.py
+*Uncoment the same files and save
+
+
+*create main.py (run after boot.py)
